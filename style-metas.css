@@ -42,9 +42,6 @@
     }
 
 
-
-
-    /*Aula 03*/
     .botao {
         font-family: "Crakra Petch", sans-serif;
         background-color: var(--botao-inativo);
@@ -60,6 +57,20 @@
         border-right: 2px solid var(--botao-ativo);
         border-top: none;
     }
+
+    .botoes {
+        display: block;
+    }
+
+    /*Aula 03*/
+
+    .ativo {
+        background-color: var(--botao-ativo);
+        border-bottom: 4px solid var(--verde);
+    }
+
+
+
 
     @media screen and (min-width : 768px) {
         .botoes {
@@ -85,8 +96,5 @@
         }
     }
 
-    .ativo {
-        background-color: var(--botao-ativo);
-        border-bottom: 4px solid var(--verde);
-    }
+
 }
